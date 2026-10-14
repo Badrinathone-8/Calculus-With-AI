@@ -6,6 +6,9 @@ app.get("/",(req,res)=>{
 app.get("/about",(req,res)=>{
     res.send("learn calculus with ai");
 })
+app.get("/git",(req,res)=>{
+    res.send("git status check")
+})
 app.listen(8000,()=>{
     console.log("running on the sever");
 })
