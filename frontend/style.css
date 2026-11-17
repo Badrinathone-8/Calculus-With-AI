@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction:column;
+}
+.container{
+    height:30%;
+    width:60%;
+    color:white;
+    background-color: black;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+  
+}
+.options{
+    background-color: red;
+   display:flex;
+   align-items: center;
+   justify-content:space-between;
+    gap:1rem;
+   flex-direction: row;
+}
+.lesson,.points,.progress{
+    background-color: green;
+    display: flex;
+    flex:1;
+    text-align: center;
+    padding: 1rem;
+    
+    flex-direction: column;
+}

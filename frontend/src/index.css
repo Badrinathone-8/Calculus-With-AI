@@ -1,0 +1,13 @@
+.navbar {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
